@@ -4,7 +4,7 @@ source 'https://rubygems.org'
    gem 'pg'
    gem 'rails_12factor'
  
- 
+ end
 
 gem 'bootstrap-sass'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -39,7 +39,7 @@ gem 'devise'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-end
+
 group :development, :test do
 	 gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
